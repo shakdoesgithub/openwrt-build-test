@@ -6,7 +6,7 @@
 TARGET=bcm27xx/bcm2710
 
 # Currently there is only the "rpi-4" build profile for this TARGET
-PROFILE="rpi"
+PROFILE="rpi-3"
 
 RELEASE=${RELEASE_23_05_04}
 
