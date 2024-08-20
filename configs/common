@@ -27,7 +27,7 @@ luci-app-commands
 luci-app-ddns
 luci-app-fwknopd fwknopd
 luci-app-https-dns-proxy https-dns-proxy
-luci-app-sqm sqm-scripts sqm-scripts-extra
+luci-app-sqm sqm-scripts
 luci-app-statistics
   collectd collectd-mod-cpu collectd-mod-irq collectd-mod-thermal
   collectd-mod-network collectd-mod-sqm collectd-mod-iwinfo collectd-mod-ping
@@ -65,7 +65,7 @@ kmod-usb-net-rtl8152 kmod-usb-net-sr9700
 # USB storage auto mounting
 packages_usb_storage="
 kmod-fs-exfat kmod-fs-ext4 kmod-fs-ntfs kmod-fuse kmod-usb-storage
-kmod-usb2 kmod-usb2-pci kmod-usb3 kmod-fs-autofs4 kmod-usb-ohci kmod-usb-uhci
+kmod-usb2 kmod-usb3 kmod-fs-autofs4 kmod-usb-ohci kmod-usb-uhci
 block-mount blockd e2fsprogs fdisk lsblk resize2fs losetup
 "
 
