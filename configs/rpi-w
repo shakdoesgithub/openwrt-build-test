@@ -3,7 +3,7 @@
 
 # Which target CPU to build image for.
 # See targets here: https://downloads.openwrt.org/snapshots/targets
-TARGET=bcm27xx/bcm2710
+TARGET=bcm27xx/bcm2708
 
 # Currently there is only the "rpi-4" build profile for this TARGET
 PROFILE="rpi"
