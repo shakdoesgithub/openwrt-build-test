@@ -14,9 +14,9 @@
 # You can't have 2 router doing dhcp, so we need to
 # setup a lan ip, which isn't your typical ip.
 # TODO: this is something we need to look into nomre
-uci set network.lan.ipaddr='192.168.1.10'
-uci set network.lan.netmask='255.255.255.0'
-uci commit network
+# uci set network.lan.ipaddr='192.168.1.10'
+# uci set network.lan.netmask='255.255.255.0'
+# uci commit network
 
 # not every wifi will be in mexico
 # TODO: figure out how to get country code
@@ -25,6 +25,6 @@ uci set wireless.radio0.country='MX'
 uci set wireless.radio0.disabled='0'
 uci commit wireless
 
-/etc/init.d/network restart
+# /etc/init.d/network restart
 
 exit 0
