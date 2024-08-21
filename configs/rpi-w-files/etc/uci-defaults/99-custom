@@ -21,9 +21,9 @@
 # not every wifi will be in mexico
 # TODO: figure out how to get country code
 # or make that part of the on-boarding setup
-uci set wireless.radio0.country='MX'
-uci set wireless.radio0.disabled='0'
-uci commit wireless
+#uci set wireless.radio0.country='MX'
+#uci set wireless.radio0.disabled='0'
+#uci commit wireless
 
 # /etc/init.d/network restart
 
