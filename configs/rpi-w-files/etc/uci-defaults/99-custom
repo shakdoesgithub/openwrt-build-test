@@ -8,11 +8,6 @@
 # possibly overwriting already existing values!
 # scripts in this dir should *not* be executable
 
-uci set wireless.@wifi-device[0].disabled="0"
-uci set wireless.@wifi-iface[0].disabled="0"
-uci set wireless.@wifi-iface[0].ssid="OpenWrt"
-uci set wireless.@wifi-iface[0].key="changemeplox"
-uci set wireless.@wifi-iface[0].encryption="psk2"
-uci commit wireless
+
 
 exit 0
